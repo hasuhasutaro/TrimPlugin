@@ -28,7 +28,7 @@ createTrimArmor(Armor $armor, TrimPattern $trimPattern, TrimMaterial $trimMateri
 - Quartz
 - Redstone
 
-> 使用例:
+> コード例:
   ```php
   TrimMaterial::Copper;
   ```
@@ -51,7 +51,7 @@ createTrimArmor(Armor $armor, TrimPattern $trimPattern, TrimMaterial $trimMateri
 - Wayfinder
 - Wild
 
-> 使用例:
+> コード例:
   ```php
   TrimPattern::Dune;
   ```
