@@ -1,0 +1,6 @@
+name: TrimPlugin
+version: 1.0.0
+main: noahasu\trimPlugin\Trim
+api: 5.0.0
+load: POSTWORLD
+author: noahasu
