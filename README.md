@@ -13,8 +13,16 @@ $newArmor = Trim::createTrimArmor($armor, TrimPattern::Wayfinder, TrimMaterial::
 
 ##### Trim Class Method
 ```php
-createTrimArmor(Armor $armor, TrimPattern $trimPattern, TrimMaterial $trimMaterial) {}
+createTrimArmor(Armor $armor, string $trimPattern, TrimMaterial $trimMaterial) {}
 ```
+
+### オリジナルの模様を指定する
+createTrimArmorの$trimPatternにオリジナルの模様の名前を渡してください。
+```php
+Trim::createTrimArmor($armor, 'original trim', TrimMaterial::Amethyst);
+```
+※ 模様はテクスチャパックで追加する必要があります。
+※ TrimMaterialは追加不可(現状追加するとアイテムが透明になるため)
 
 ### TrimMaterialのcase一覧
 - Amethyst
@@ -33,7 +41,7 @@ createTrimArmor(Armor $armor, TrimPattern $trimPattern, TrimMaterial $trimMateri
   TrimMaterial::Copper;
   ```
 
-### TrimPatternのcase一覧
+### TrimPatternの定数一覧
 - Coast
 - Dune
 - Eye
