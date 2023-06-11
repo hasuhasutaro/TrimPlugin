@@ -2,21 +2,21 @@
 namespace noahasu\trimPlugin;
 
 /** 防具の模様 */
-enum TrimPattern: string {
-    case Coast = 'coast';
-    case Dune = 'dune';
-    case Eye = 'eye';
-    case Host = 'host';
-    case Raiser = 'raiser';
-    case Rib = 'rib';
-    case Sentry = 'sentry';
-    case Shaper = 'shaper';
-    case Silence = 'silence';
-    case Snout = 'snout';
-    case Spire = 'spire';
-    case Tide = 'tide';
-    case Vex = 'vex';
-    case Ward = 'ward';
-    case Wayfinder = 'wayfinder';
-    case Wild = 'wild';
+class TrimPattern {
+    public const COAST = 'coast';
+    public const DUNE = 'dune';
+    public const EYE = 'eye';
+    public const HOST = 'host';
+    public const RAISER = 'raiser';
+    public const RIB = 'rib';
+    public const SENTRY = 'sentry';
+    public const SHAPER = 'shaper';
+    public const SILENCE = 'silence';
+    public const SNOUT = 'snout';
+    public const SPIRE = 'spire';
+    public const TIDE = 'tide';
+    public const VEX = 'vex';
+    public const WARD = 'ward';
+    public const WAYFINDER = 'wayfinder';
+    public const WILD = 'wild';
 }
